@@ -169,7 +169,6 @@ namespace Calculator
                 else
                     txt.Text = txt.Text.Substring(0, txt.Text.Length - 1);
         }
-        public bool IsPositive { get; set; }
         private void btnPositiveNegative_Click(object sender, EventArgs e)
         {
             if (txt.Text != "")
